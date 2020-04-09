@@ -2,7 +2,6 @@ package com.boca.logistica;
 
 import java.util.*;
 public class Main {
-    static final int N = 256;
     static String MaxOccuringChar(String str1) {
         HashMap<Character, Integer> map = new HashMap<Character, Integer>();
         char[] strch= str1.toCharArray();
